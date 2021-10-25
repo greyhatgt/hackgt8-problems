@@ -1,0 +1,5 @@
+services:
+  reverse_minesweeper_1:
+    build: .
+    ports:
+      - "1337:8080"

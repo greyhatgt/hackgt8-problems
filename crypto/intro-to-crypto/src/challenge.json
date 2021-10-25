@@ -1,0 +1,40 @@
+{
+  "welcome_text": "Welcome to Intro to crypto.\nYou'll be given some information and a ciphertext, and your goal is to\nfind the originally encoded plaintext. Good luck!\n",
+  "problems": [
+    {
+      "text": "Julius Caesar left you a message for HackGT 8",
+      "ciphertext": "rctqca emtkwuma c bw bpm uizsmbxtikm",
+      "answer": "julius welcomes u to the marketplace",
+      "correct": "I still think the best thing Caesar made was the salad.",
+      "wrong": "Good try. Maybe with a little more work you'll get it! You can do it!"
+    },
+    {
+      "text": "My friend ANGELA gave me this. She called herself a Vision Engineer or something...",
+      "ciphertext": "insxseszgveesgvicsoakzpr",
+      "answer": "iamthesmartestpersonever",
+      "correct": "Oh yeah she said she was the next Vigenere. A little cocky of her but what do you do?",
+      "wrong": "Good try. Maybe with a little more work you'll get it! You can do it!"
+    },
+    {
+      "text": "Are there any fences at a marketplace?",
+      "ciphertext": "NNHOECSEEFER",
+      "answer": "no fences here",
+      "correct": "Maybe you should try to have more direction rather than zigzagging through the market.",
+      "wrong": "Good try. Maybe with a little more work you'll get it! You can do it!"
+    },
+    {
+      "text": "Is that your substitute teacher? Sometimes I wish our subs would switch with our real teachers.",
+      "ciphertext": "ycuq uq awy z rxjv qxmbjx mulcxj.",
+      "answer": "this is still not a very secure cipher.",
+      "correct": "Wow, someone took my idea and made a cipher... oh wait, maybe I'm just tardy to the party.",
+      "wrong": "Good try. Maybe with a little more work you'll get it! You can do it!"
+    },
+    {
+      "text": "Hope the fruit and veggies at the produce booth don’t ROT-8!",
+      "ciphertext": "bpmg izm itt xtiabqk",
+      "answer": "they are all practice",
+      "correct": "Have you ever tried to eat plastic fruit? ... yeah uhh, me neither.",
+      "wrong": "Good try. Maybe with a little more work you'll get it! You can do it!"
+    }
+  ]
+}

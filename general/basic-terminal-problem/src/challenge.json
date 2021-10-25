@@ -1,0 +1,37 @@
+{
+  "entry_text": "Good job, you logged in, but we're on a time sensitive mission,\nso I need you to be quick through these.",
+  "file_system": null,
+  "fail_message": "Oof. Sorry the sys admin caught you and you got kicked out of the system.",
+  "problems": [
+    {
+      "directory": "~",
+      "text": "It looks like we're in the home directory, could you take a look what's in there?",
+      "answers": ["ls", "ls .", "ls ~"],
+      "return": "cat_photos pluto_pics secrets dorm_room_recipes server"
+    },
+    {
+      "directory": "~",
+      "text": "Cool. Cool cool cool. Maybe go into the directory called secrets?",
+      "answers": ["cd secrets", "cd ~/secrets", "cd ./secrets"],
+      "return": null
+    },
+    {
+      "directory": "~/secrets",
+      "text": "Nice. Let's check whats in this directory",
+      "answers": ["ls", "ls .", "ls ~/secrets"],
+      "return": "secret.secret"
+    },
+    {
+      "directory": "~/secrets",
+      "text": "Oh ok, can you check what's in secret.secret",
+      "answers": ["cat secret.secret", "cat ~/secrets/secret.secret"],
+      "return": "the codes to break the internet: 12e90b8e74f20fc0a727"
+    },
+    {
+      "directory": "~/secrets",
+      "text": "Oh darn, so we have a tv fan, well maybe there's something important in it.\nCould you try moving ~/server/ ? We can access that.",
+      "answers": ["mv secret.secret ~/server/", "mv secret.secret ../server/", "cp secret.secret ~/server/", "cp secret.secret ../server/"],
+      "return": "Nice. Now we can download it from their public server."
+    }
+  ]
+}
